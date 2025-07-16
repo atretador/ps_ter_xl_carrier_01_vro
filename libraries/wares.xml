@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/wares">
+    <ware id="ship_ps_ter_xl_carrier_01_ware" name="{303003,2}" description="{303003,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+    <price min="24816165" average="29398438" max="32958204" />
+      <production time="517" amount="1" method="default" name="{20206,901}">
+        <primary>
+      <ware ware="computronicsubstrate" amount="660" />
+      <ware ware="energycells" amount="16000" />
+      <ware ware="metallicmicrolattice" amount="1405" />
+        </primary>
+      </production>
+      <component ref="ship_ps_ter_xl_carrier_01_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="pioneers" />
+    </ware>
+    
+    <ware id="ship_ps_ter_s_fighter_01_ware" name="{303016,1}" description="{303016,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+      <price min="800180" average="970800" max="1141420" />
+      <production time="14" amount="1" method="default" name="{20206,901}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="21" />
+          <ware ware="energycells" amount="160" />
+          <ware ware="metallicmicrolattice" amount="72" />
+        </primary>
+      </production>
+      <component ref="ship_ps_ter_s_fighter_01_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="pioneers" />
+    </ware>
+    
+
+    <ware id="ishield_ps_ter_xl_carrier_01" name="{303003,5}" description="{303003,5}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="12" average="16" max="21" />
+      <production time="1" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="ishield_ps_ter_xl_carrier_01_macro" amount="1" />
+      <use threshold="0" />
+      <restriction licence="generaluseequipment" />
+    </ware>
+    
+    <ware id="ishield_ps_ter_s_fighter_01" name="{303016,5}" description="{303016,5}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="12" average="16" max="21" />
+      <production time="1" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="ishield_ps_ter_s_fighter_01_macro" amount="1" />
+      <use threshold="0" />
+      <restriction licence="generaluseequipment" />
+    </ware>
+    
+	</add>
+</diff>
+
+

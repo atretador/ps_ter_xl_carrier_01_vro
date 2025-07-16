@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content name="Refurbished Terran Ship PS VRO" description="Updated and rebalanced version of the original Refurbished Pio carrier" author="atretador" version="1" date="2025-07-03" id="ws_2905104032" save="false" lastupdate="1682651762">
+  <dependency id="ws_1696862840" optional="false" name="Variety and Rebalance Overhaul"></dependency>
+</content>

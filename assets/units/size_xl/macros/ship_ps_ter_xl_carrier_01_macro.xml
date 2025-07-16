@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ship_ps_ter_xl_carrier_01_macro" class="ship_xl">
+    <component ref="ship_ps_ter_xl_carrier_01" />
+    <properties>
+      <identification name="{303003,2}" basename="{303003,1}" makerrace="pioneers" description="{303003,3}" icon="ship_xl_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <jerk>
+        <forward accel="0.3" decel="0.7" ratio="3" />
+        <forward_boost accel="0.3" ratio="3" />
+        <forward_travel accel="0.3" decel="0.7" ratio="3" />
+        <strafe value="0.3" />
+        <angular value="0.15" />
+      </jerk>
+      <explosiondamage value="12000" />
+      <storage missile="40" unit="72" />
+      <dronestorages>
+        <dronestorage tags="defence" capacity="54" />
+        <dronestorage tags="repair" capacity="14" />
+        <dronestorage tags="cargo" capacity="4" />
+      </dronestorages>
+      <hull max="325000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <people capacity="123" />
+      <physics mass="1080.123">
+        <inertia pitch="1141.682" yaw="1141.682" roll="900.945" />
+        <drag forward="172.285" reverse="575.584" horizontal="289.822" vertical="289.822" pitch="934.528" yaw="934.528" roll="934.528" />
+      </physics>
+      <thruster tags="extralarge" />
+      <ship type="carrier" />
+      <threatscore value="25" />
+    </properties>
+    <connections>
+      <connection ref="con_buildmodule">
+        <macro ref="buildmodule_gen_carrier_macro" connection="object" />
+      </connection>
+      <connection ref="con_cockpit">
+        <macro ref="bridge_ter_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_dockarea_arg_s_ship_01">
+        <macro ref="dockarea_ter_xl_resupplier_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_launchtube_arg_s_01_a">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <connection ref="con_launchtube_arg_s_02_a">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <connection ref="con_launchtube_arg_s_03_a">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <connection ref="con_launchtube_arg_s_04_a">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <connection ref="con_launchtube_arg_s_05_a">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <connection ref="con_launchtube_arg_s_06_a">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <connection ref="con_launchtube_arg_s_07_a">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <connection ref="con_launchtube_arg_s_08_a">
+        <macro ref="launchtube_arg_s_01_macro" connection="Connection02" />
+      </connection>
+      <connection ref="con_shipstorage01">
+        <macro ref="shipstorage_gen_s_cap58_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage02">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage03">
+        <macro ref="shipstorage_gen_m_cap15_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_ps_ter_xl_carrier_01_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

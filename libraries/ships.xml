@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="//ships">
+    <ship id="pio_ps_carrier_xl" group="pio_ps_carrier_xl">
+      <category faction="pioneers" size="ship_xl" tags="[military, carrier, mission]" />
+      <pilot>
+        <select faction="pioneers" tags="commanderpilot" />
+      </pilot>
+      <drop ref="ship_large_military" />
+      <people ref="pioneers_military_crew" />
+      <macro ref="ship_ps_ter_xl_carrier_01_macro" />
+      <loadout>
+        <level exact="1.0"/>
+      </loadout>
+      <owner exact="pioneers" />
+    </ship>
+
+    <ship id="pio_ps_fighter_heavy_s" group="pio_ps_fighter_heavy_s">
+      <category faction="pioneers" size="ship_s" tags="[military, fighter, heavy, mission]" />
+      <pilot>
+        <select faction="pioneers" tags="fighterpilot" />
+      </pilot>
+      <drop ref="ship_small_military" />
+      <people ref="pioneers_military_crew" />
+      <macro ref="ship_ps_ter_s_fighter_01_macro" />
+      <loadout>
+        <level exact="1.0"/>
+      </loadout>
+      <owner exact="pioneers" />
+    </ship>
+
+  </add>
+</diff>

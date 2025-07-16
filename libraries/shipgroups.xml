@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//groups">
+		<group name="pio_ps_carrier_xl">
+			<select macro="ship_ps_ter_xl_carrier_01_macro" weight="100" />
+		</group>
+		<group name="pio_ps_fighter_heavy_s">
+			<select macro="ship_ps_ter_s_fighter_01_macro" weight="100" />
+		</group>
+	</add>
+</diff>

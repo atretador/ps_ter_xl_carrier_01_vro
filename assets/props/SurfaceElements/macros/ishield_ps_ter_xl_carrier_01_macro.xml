@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_ps_ter_xl_carrier_01_macro" class="shieldgenerator">
+    <component ref="ishield_ps_ter_xl_carrier_01" />
+    <properties>
+      <identification name="{303003,5}" />
+      <recharge max="97672" rate="1785" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
+<diff>
+	<add sel = '/index' >
+		<entry name="ship_ps_ter_xl_carrier_01_macro" value="extensions\ps_ter_xl_carrier_01_vro\assets\units\size_xl\macros\ship_ps_ter_xl_carrier_01_macro" />
+		<entry name="ship_ps_ter_s_fighter_01_macro" value="extensions\ps_ter_xl_carrier_01_vro\assets\units\size_s\macros\ship_ps_ter_s_fighter_01_macro" />
+		<entry name="ishield_ps_ter_xl_carrier_01_macro" value="extensions\ps_ter_xl_carrier_01_vro\assets\props\SurfaceElements\macros\ishield_ps_ter_xl_carrier_01_macro" />
+		<entry name="ishield_ps_ter_s_fighter_01_macro" value="extensions\ps_ter_xl_carrier_01_vro\assets\props\SurfaceElements\macros\ishield_ps_ter_s_fighter_01_macro" />
+	<!-- Custom Main storage capacity-->
+		<entry name="storage_ps_ter_xl_carrier_01_macro" value="extensions\ps_ter_xl_carrier_01_VRO\assets\units\size_xl\macros\storage_ps_ter_xl_carrier_01_macro" />
+	</add>
+</diff>

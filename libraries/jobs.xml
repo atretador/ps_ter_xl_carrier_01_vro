@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="//jobs">
+
+    <job id="pio_custom_carrier_patrol_xl" name="{303003,6}">
+      <modifiers commandeerable="true" />
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.zone" />
+        </order>
+      </orders>
+      <category faction="pioneers" tags="[factionlogic, military, carrier]" size="ship_xl"/>
+      <quota galaxy="5" sector="1" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="pioneers" relation="self" comparison="exact" matchextension="false"/>
+
+      <environment buildatshipyard="true" />
+      <ship>
+	    <select faction="pioneers" tags="[military, carrier]" size="ship_lx"/>
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+        <owner exact="pioneers" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="pioneers_fighter_escort_s" />
+        <subordinate job="pioneers_fighter_escort_s" />
+        <subordinate job="pioneers_fighter_escort_s" />
+        <subordinate job="pioneers_fighter_escort_s" />
+        <subordinate job="pioneers_fighter_escort_s" />
+        <subordinate job="pioneers_corvette_escort_m" />
+        <subordinate job="pioneers_corvette_escort_m" />
+      </subordinates>
+    </job>
+
+  </add>
+</diff>

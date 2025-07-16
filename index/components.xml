@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text/xsl" ? -->
+<diff>
+	<add sel = '/index' >
+		<entry name="ship_ps_ter_xl_carrier_01" value="extensions\ps_ter_xl_carrier_01_vro\assets\units\size_xl\ship_ps_ter_xl_carrier_01" />
+		<entry name="ship_ps_ter_s_fighter_01" value="extensions\ps_ter_xl_carrier_01_vro\assets\units\size_s\ship_ps_ter_s_fighter_01"/>
+		<entry name="ishield_ps_ter_xl_carrier_01" value="extensions\ps_ter_xl_carrier_01_vro\assets\props\SurfaceElements\ishield_ps_ter_xl_carrier_01" />
+		<entry name="ishield_ps_ter_s_fighter_01" value="extensions\ps_ter_xl_carrier_01_vro\assets\props\SurfaceElements\ishield_ps_ter_s_fighter_01" />
+	</add>
+</diff>

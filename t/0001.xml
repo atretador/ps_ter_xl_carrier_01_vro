@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/language">
+		<page id="303003" title="ship_ps_ter_xl_carrier_01" descr="" voice="yes">
+			<t id="1">{20101,63001}</t>
+			<t id="2">(ship_ps_ter_xl_carrier_01){20101,63001}</t>
+			<t id="3"></t>
+			<t id="4">{20101,63001}</t>
+			<t id="5">IG XL - {20101,63001}  Internal Generator</t>
+			<t id="6">PIO Patrol Carrier</t>
+		</page>
+		<page id="303016" title="ship_ps_ter_s_fighter_01" descr="" voice="yes">
+			<t id="1">{20101,61701}</t>
+			<t id="2">(ship_ps_ter_s_fighter_01){20101,61701}</t>
+			<t id="3">{20101,61701} Disc</t>
+			<t id="4">{20101,61701}</t>
+			<t id="5">IG S - {20101,61701}  Internal Generator</t>
+		</page>
+	</add>
+</diff>
